@@ -2,15 +2,10 @@
 
 https://final-project-five-sepia.vercel.app/
 
-## Credentials to use when logging in: 
+## Credentials to use when logging in:
 
-# 1: 
-  Email: mandy7373@gmail.com
-  password: Password123
-
-# 2: 
   Email: alex@gmail.com
-  Password: Password123
+  Password: Lazika_12
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
