@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card {
+  @apply block mb-5 border-gray-200 rounded-lg shadow-md;
+}
+
+.primary-button {
+  @apply rounded text-white bg-[#51944e] py-2 px-4 shadow outline-none hover:bg-[#488745] hover:text-[#7dd779] active:bg-[#407a3d];
+}
+
+.default-button {
+  @apply px-4 py-2 text-white bg-[#5aa156] rounded shadow outline-none hover:bg-[#51944e] hover:text-[#7dd779] active:bg-[#488745];
+}
+
+.primary-button-pink {
+  @apply px-4 py-2 text-white bg-pink-600 rounded shadow outline-none hover:bg-pink-700 hover:text-pink-200 active:bg-pink-800;
+}
+
+input,
+select,
+textarea {
+  @apply p-2 border rounded outline-none ring-[#bffabc] focus:ring;
+}
+
+.dropdown-link {
+  @apply flex p-2 hover:bg-gray-200;
+}
